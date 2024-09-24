@@ -11,15 +11,15 @@ MAINTAINER_EMAIL = "lewis@huggingface.co"
 
 INTEGRATIONS_REQUIRE = ["optuna"]
 REQUIRED_PKGS = [
-    "datasets>=2.15.0",
+    "datasets=2.20.0",
     "sentence-transformers[train]>=3",
-    "transformers>=4.41.0",
-    "evaluate>=0.3.0",
+    "transformers=4.41.2",
+    "evaluate=0.4.0",
     "huggingface_hub>=0.23.0",
     "scikit-learn",
     "packaging",
 ]
-ABSA_REQUIRE = ["spacy<3.7.6"]
+ABSA_REQUIRE = ["spacy=3.7.0"]
 QUALITY_REQUIRE = ["black", "flake8", "isort", "tabulate"]
 ONNX_REQUIRE = ["onnxruntime", "onnx!=1.16.2", "skl2onnx"]
 OPENVINO_REQUIRE = ["hummingbird-ml", "openvino"]
